@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Télésérie</string>
+    <string name="attack_on_titan">Attack on Titan</string>
+    <string name="the_beginning">The Beginning</string>
+    <string name="black_clover">Black Clover</string>
 </resources>

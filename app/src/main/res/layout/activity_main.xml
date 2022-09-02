@@ -12,7 +12,7 @@
         <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" app:srcCompat="@drawable/series01" android:id="@+id/imgBtn00"
-                android:scaleType="centerInside" android:contentDescription="Attack on Titan"/>
+                android:scaleType="centerInside" android:contentDescription="@string/attack_on_titan"/>
     </androidx.cardview.widget.CardView>
     <Space
             android:layout_width="match_parent"
@@ -23,7 +23,7 @@
         <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" app:srcCompat="@drawable/series02" android:id="@+id/imgBtn01"
-                android:scaleType="centerInside" android:contentDescription="The Beginning"/>
+                android:scaleType="centerInside" android:contentDescription="@string/the_beginning"/>
     </androidx.cardview.widget.CardView>
     <Space
             android:layout_width="match_parent"
@@ -34,6 +34,6 @@
         <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" app:srcCompat="@drawable/series03" android:id="@+id/imgBtn02"
-                android:scaleType="centerInside" android:contentDescription="Black Clover"/>
+                android:scaleType="centerInside" android:contentDescription="@string/black_clover"/>
     </androidx.cardview.widget.CardView>
 </LinearLayout>
