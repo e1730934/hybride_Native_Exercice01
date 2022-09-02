@@ -3,4 +3,10 @@
     <string name="attack_on_titan">Attack on Titan</string>
     <string name="the_beginning">The Beginning</string>
     <string name="black_clover">Black Clover</string>
+    <string name="genres">Genres:</string>
+    <string name="studio">Studio:</string>
+    <string name="txtGenres"/>
+    <string name="txtStudio"/>
+    <string name="txtPlot"/>
+    <string name="title">Title</string>
 </resources>

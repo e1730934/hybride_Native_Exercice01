@@ -12,11 +12,11 @@
             android:layout_height="33dp" android:id="@+id/txtTitle"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:text="Test" android:contentDescription="Title"
+            tools:text="Test" android:contentDescription="@string/title"
             android:textAlignment="center" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintVertical_bias="0.073" android:textSize="24dp"/>
+            app:layout_constraintVertical_bias="0.073" android:textSize="24sp"/>
     <TextView
-            android:text="TextView"
+            android:text="@string/txtPlot"
             android:layout_width="346dp"
             android:layout_height="261dp" android:id="@+id/txtPlot"
             app:layout_constraintTop_toBottomOf="@+id/txtTitle"
@@ -25,7 +25,7 @@
             app:layout_constraintHorizontal_bias="0.492"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.126"/>
     <TextView
-            android:text="TextView"
+            android:text="@string/txtStudio"
             android:layout_width="262dp"
             android:layout_height="wrap_content" android:id="@+id/txtStudio"
             android:textAlignment="center"
@@ -34,7 +34,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintVertical_bias="0.0" android:layout_marginEnd="32dp" android:textSize="20sp"/>
     <TextView
-            android:text="TextView"
+            android:text="@string/txtGenres"
             android:layout_width="262dp"
             android:layout_height="wrap_content" android:id="@+id/txtGenres"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -43,7 +43,7 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.785"
             android:textSize="20sp"/>
     <TextView
-            android:text="Studio: "
+            android:text="@string/studio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblStudio"
             app:layout_constraintTop_toBottomOf="@+id/txtPlot"
@@ -52,7 +52,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="1.0" android:textSize="20sp"/>
     <TextView
-            android:text="Genres:"
+            android:text="@string/genres"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblGenres"
             app:layout_constraintEnd_toStartOf="@+id/txtGenres" android:layout_marginEnd="28dp"
